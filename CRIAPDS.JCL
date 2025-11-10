@@ -1,7 +1,7 @@
-//CRIAPDS  JOB    ('00'),TSO.&SYSUID,                                   JOB53930
+//CRIAPDS  JOB    ('00'),TSO.&SYSUID,                                   
 //          REGION=0M,NOTIFY=&SYSUID,
 //          MSGCLASS=T,MSGLEVEL=1,CLASS=A
-//********************************************************************  PDB2E036
+//********************************************************************  
 //STEP1    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.WORKBOOK.JCL,
@@ -9,11 +9,11 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=FB,LRECL=80,BLKSIZE=800)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
-//SYSOUT   DD    *                                                      *VRS014*
-//********************************************************************  PDB2E036
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
+//SYSOUT   DD    *                                                      
+//********************************************************************  
 //STEP2    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.WORKBOOK.COBOL,
@@ -21,10 +21,10 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=FB,LRECL=80,BLKSIZE=800)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
-//********************************************************************  PDB2E036
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
+//********************************************************************  
 //STEP3    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.WORKBOOK.CICS,
@@ -32,10 +32,10 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=FB,LRECL=80,BLKSIZE=800)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
-//********************************************************************  PDB2E036
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
+//********************************************************************  
 //STEP4    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.WORKBOOK.DB2,
@@ -43,10 +43,10 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=FB,LRECL=80,BLKSIZE=800)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
-//********************************************************************  PDB2E036
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
+//********************************************************************  
 //STEP5    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.WORKBOOK.COPY,
@@ -54,10 +54,10 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=FB,LRECL=80,BLKSIZE=800)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
-//********************************************************************  PDB2E036
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
+//********************************************************************  
 //STEP6    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.WORKBOOK.SQL,
@@ -65,10 +65,10 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=FB,LRECL=80,BLKSIZE=800)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
-//********************************************************************  PDB2E036
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
+//********************************************************************  
 //STEP7    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.WORKBOOK.DBRM,
@@ -76,10 +76,10 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=FB,LRECL=80,BLKSIZE=800)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
-//********************************************************************  PDB2E036
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
+//********************************************************************  
 //STEP8    EXEC PGM=IEFBR14
 //*
 //PDSOUT   DD  DSN=XXXXXXXX.CBL.LOADLIB,
@@ -87,7 +87,8 @@
 //      UNIT=SYSDA,
 //      SPACE=(CYL,(5,2,300)),
 //      DCB=(DSORG=PO,RECFM=U,LRECL=0)
-//SYSPRINT DD    SYSOUT=*                                               *VRS014*
-//SYSTERM  DD    SYSOUT=*                                               *VRS014*
-//SYSUT2   DD    SYSOUT=*                                               *VRS014*
+//SYSPRINT DD    SYSOUT=*                                               
+//SYSTERM  DD    SYSOUT=*                                               
+//SYSUT2   DD    SYSOUT=*                                               
 //************************** FIM DO JCL     *************************
+
