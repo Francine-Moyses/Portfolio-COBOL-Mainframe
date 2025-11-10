@@ -1,4 +1,4 @@
-# Projetos COBOL Mainframe
+# Portfólio COBOL Mainframe
 
 Este repositório reúne projetos desenvolvidos em **COBOL** como parte da minha formação em **ambientes mainframe**.  
 Os programas foram **desenvolvidos, compilados e executados** em um sistema **z/OS**, utilizando **TSO/ISPF** e **SDSF**.
